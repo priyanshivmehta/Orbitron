@@ -8,18 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="styleQ.css"/>
 </head>
 <body onload="myFunction()" >
     <header  style="display:none;" id="myDiv" class="animate-bottom">
         <div class="navbar">
-            <div class="logo"><a href="HomePage.html" class="logo"><img class="mylogo" src="C:\Users\PRIYANSHI MEHTA\Desktop\College\Website jpg\OrbitronLogo.png" alt="ORBITRON"></a></div>
+            <div class="logo"><a href="HomePage.html" class="logo"><img class="mylogo" src="C:\Users\PRIYANSHI MEHTA\Downloads\OrbitronLogo-removebg-preview.png" alt="ORBITRON"></a></div>
             <ul class="links">
                 <li><a href="HomePage.html" id="tabs">Home</a></li>
-                <li><a href="#" id="tabs">3D Visualization</a></li>
+                <li><a href="https://solar3d-nine.vercel.app/#" id="tabs">3D Visualization</a></li>
                 <li><a href="#" id="tabs">News</a></li>
                 <li><a href="#" id="tabs">Cosmology</a></li>
-                <li><a href="#" id="tabs">Quiz</a></li>
+                <li><a href="Quiz.html" id="tabs">Quiz</a></li>
                 <li><a href="#" id="tabs">Support Us</a></li>
             </ul>
             <div class="toggle_btn">
@@ -27,11 +27,32 @@
             </div>
         </div>
         <div class="dropdown_menu">
-            <li><a href="#" id="tabs">3D Visualization</a></li>
+            <li><a href="https://solar3d-nine.vercel.app/#" id="tabs">3D Visualization</a></li>
             <li><a href="#" id="tabs">News</a></li>
             <li><a href="#" id="tabs">Cosmology</a></li>
-            <li><a href="#" id="tabs">Quiz</a></li>
+            <li><a href="Quiz.html" id="tabs">Quiz</a></li>
             <li><a href="#" id="tabs">Support Us</a></li>
         </div>
+            <div class="app">
+                <h1>Test your knowledge!</h1>
+                <hr style="color:grey">
+                <br>
+                <br>
+                <br>
+                <div class="quiz">
+                    <h2 id="question">question 1</h2>
+                    <div id="answer-buttons">
+                        <button class="btn">Answer 1</button>
+                        <button class="btn">Answer 2</button>
+                        <button class="btn">Answer 3</button>
+                        <button class="btn">Answer 4</button>
+                    </div>
+                    <button id="next-btn">NEXT</button>
+                </div>
+            </div>
+        </div>
+        </header>
         <script src="script.js"></script>
+    </body> 
+</html>
         
