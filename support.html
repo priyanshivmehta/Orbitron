@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbitron</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styleS.css"/>
+</head>
+<body onload="myFunction()">
+    <header  style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="navbar">
+            <div class="logo"><a href="HomePage.html" class="logo"><img class="mylogo" src="C:\Users\PRIYANSHI MEHTA\Downloads\OrbitronLogo-removebg-preview.png" alt="ORBITRON"></a></div>
+            <ul class="links">
+                <li><a href="HomePage.html" id="tabs">Home</a></li>
+                <li><a href="https://solar3d-nine.vercel.app/#" id="tabs">3D Visualization</a></li>
+                <li><a href="#" id="tabs">News</a></li>
+                <li><a href="#" id="tabs">Cosmology</a></li>
+                <li><a href="Quiz.html" id="tabs">Quiz</a></li>
+                <li><a href="support.html" id="tabs">Support Us</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars" style="color:rgb(138, 189, 234);"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="https://solar3d-nine.vercel.app/#" id="tabs">3D Visualization</a></li>
+            <hr style="border:0.5px solid rgba(167, 162, 162, 0.2);">
+            <li><a href="#" id="tabs">News</a></li>
+            <hr style="border:0.5px solid rgba(167, 162, 162, 0.2);">
+            <li><a href="#" id="tabs">Cosmology</a></li>
+            <hr style="border:0.5px solid rgba(167, 162, 162, 0.2);">
+            <li><a href="Quiz.html" id="tabs">Quiz</a></li>
+            <hr style="border:0.5px solid rgba(167, 162, 162, 0.2);">
+            <li><a style="height:50px;" href="support.html" id="tabs">Support Us</a></li>
+        </div>
+        <script src="script.js"></script>
+        <h1 style="margin-top:120px">OUR MISSION</h1>
+        <p id="info">At Orbitron, our mission is to ignite curiosity and passion for the cosmos through innovative projects, comprehensive research, and engaging educational content. We aim to make space exploration accessible to everyone, fostering a community where knowledge and discovery thrive.</p>
+        <h1>We Value Your Feedback</h1>
+        <p id="info">Your thoughts and suggestions are important to us. <br> Help us improve Orbitron by sharing your feedback. Whether it's an idea for a new mission, a suggestion for better user experience, or any other input, we'd love to hear from you!</p>
+        <form>
+        <textarea id="msg" name="msg" 
+                  rows="7" cols="50" required> 
+        </textarea> 
+        <br>
+        <br>
+        <a id="btn" type="submit" href="support.html"> Submit </a> 
+        </form>
+        <p style="margin-top:40px;" id="info">Send us an email at info@orbitronspace.com</p>
+        <footer>
+            <div id ="footer1">
+                <p class="footerlist">ORBITRON © 2024 All Rights Reserved. </p>
+                <p class="footerlist">Terms Of Service</p>
+                <a href="support.html" class="footerlist" id="hoverfooter">Support Us</a>
+                <p class="footerlist">Email: info@orbitronspace.com</p>
+                <div style="display:inline-block">
+                  <i class="fa fa-instagram" id="socials"></i>
+                  <i class="fa fa-youtube-play" id="socials"></i>
+                  <i class="fa fa-facebook-f" id="socials"></i>
+                  <i class="fa-brands fa-x-twitter" id="socials"></i>
+                </div>
+            </div>
+            </footer>
+    </header>
+</body>
+</html>
